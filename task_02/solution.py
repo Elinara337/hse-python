@@ -6,7 +6,7 @@ def add(a, b):
     """
     Сложение двух чисел
     """
-    # Ваш код здесь
+    return a + b
     pass
 
 
@@ -14,7 +14,7 @@ def subtract(a, b):
     """
     Вычитание b из a
     """
-    # Ваш код здесь
+    return a - b
     pass
 
 
@@ -22,7 +22,7 @@ def multiply(a, b):
     """
     Умножение двух чисел
     """
-    # Ваш код здесь
+    return a * b
     pass
 
 
@@ -31,7 +31,7 @@ def divide(a, b):
     Деление a на b
     Должно вызывать исключение ZeroDivisionError при делении на ноль
     """
-    # Ваш код здесь
+    return a / b
     pass
 
 
@@ -39,7 +39,7 @@ def power(a, b):
     """
     Возведение числа a в степень b
     """
-    # Ваш код здесь
+    return a ** b
     pass
 
 
@@ -47,7 +47,7 @@ def modulo(a, b):
     """
     Остаток от деления a на b
     """
-    # Ваш код здесь
+    return a % b
     pass
 
 
@@ -55,5 +55,5 @@ def floor_division(a, b):
     """
     Целочисленное деление a на b
     """
-    # Ваш код здесь
+    return a // b
     pass
